@@ -22,9 +22,15 @@ For more info on play version compatibility see the releases matrix.
 
 ## Releases
 
-| Release     | Play version |
-| :---------- | :----------- |
-| 0.6.x       | 2.8.x        |
+| Group ID                  | Release | Play version | Scala version  |
+|:--------------------------|:--------|:-------------|:---------------|
+| io.github.jyllands-posten | 1.0.2   | 3.0.2        | 2.13.13        |
+| io.github.jyllands-posten | 1.0.1   | 3.0.1        | 2.13.13        |
+| io.github.jyllands-posten | 1.0.0   | 3.0.0        | 2.13.x         |
+| com.marksfam              | 0.7.0   | 2.9.x        | 2.12.x, 2.13.x |
+| io.github.jyllands-posten | 0.6.x   | 2.8.x        | 2.12.x, 2.13.x |
+
+Note that the com.marksfam fork was only made because io.github.jyllands-posten appeared to be abandoned and a build that supported Play 2.9.x was necessary. Now that io.github.jyllands-posten appears to be active again, the com.marksfam fork will likely be abandoned and if anyone was using it, I recommend switching back to that one.
 
 For earlier play versions, see the original repository [play-prometheus-filters](https://github.com/stijndehaes/play-prometheus-filters)
 
